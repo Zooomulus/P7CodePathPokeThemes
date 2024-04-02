@@ -15,8 +15,14 @@ import com.loopj.android.http.JsonHttpResponseHandler
 import cz.msebera.android.httpclient.Header
 import org.json.JSONObject
 
+data class Pokemon(
+    val name: String,
+    val imageUrl: String,
+    val ability: String
+)
+
 class MainActivity() : AppCompatActivity() {
-    private lateinit var pokeList: MutableList<String>
+    private lateinit var pokeList: MutableList<Pokemon> // Change this line
     private lateinit var rvPokes: RecyclerView
     private lateinit var adapter: PetAdapter // Declare adapter variable
 
@@ -44,10 +50,14 @@ class MainActivity() : AppCompatActivity() {
                     headers: Array<Header>?,
                     response: JSONObject?
                 ) {
+                    val name = response?.getString("name")
+                    val abilities = response?.getJSONArray("abilities")
+                    val ability = abilities?.getJSONObject(0)?.getJSONObject("ability")?.getString("name")
                     val sprites = response?.getJSONObject("sprites")
                     val imageUrl = sprites?.getString("front_default")
-                    if (imageUrl != null) {
-                        pokeList.add(imageUrl)
+                    if (imageUrl != null && name != null && ability != null) {
+                        val pokemon = Pokemon(name, imageUrl, ability) // Create a Pokemon object
+                        pokeList.add(pokemon) // Add the Pokemon object to the list
                         runOnUiThread { // Make sure to update UI on the main thread
                             adapter.notifyDataSetChanged() // Notify adapter of data change
                         }
@@ -66,3 +76,4 @@ class MainActivity() : AppCompatActivity() {
         }
     }
 }
+
