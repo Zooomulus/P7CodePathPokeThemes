@@ -1,16 +1,16 @@
 <!-- (This is a comment) INSTRUCTIONS: Go through this page and fill out any **bolded** entries with their correct values.-->
 
-# AND101 Project 5 - Choose Your Own API
+# AND101 Project 6 - CYOAPI Part 2: RecyclerView Edition
 
 Submitted by: **Dung Nguyen**
 
-Time spent: **7** hours spent in total
+Time spent: **2.5** hours spent in total
 
 ## Summary
 
-**RandomPoke** is an android app that **Generate a random pokemon each time you click the "Get New Pokemon" Button**
+**ScrollablePoke** is an android app that **From Pokemon API, create a scrollable view of random Pokemon**
 
-If I had to describe this project in three (3) emojis, they would be: **😢😯👍**
+If I had to describe this project in three (3) emojis, they would be: **🤗🤓🤩**
 
 ## Application Features
 
@@ -19,28 +19,24 @@ If I had to describe this project in three (3) emojis, they would be: **😢😯
 The following REQUIRED features are completed:
 
 - [x] Make an API call to an API of your choice using AsyncHTTPClient
-- [x] Display at least three (3) pieces of data for each API entry retrieved
-- [x] A working Button requests a new API entry and updates the data displayed
+- [x] Implement a RecyclerView to display a list of entries from the API
+- [x] Display at least three (3) pieces of data for each RecyclerView item
 
 The following STRETCH features are implemented:
 
-- [ ] Add a query to the API request
-  - The query I added is **FILL IN HERE**
-- [ ] Build a UI to allow users to add that query
+- [ ] Add a UI element for the user to interact with API further
+- [ ] Show a `Toast` or `Snackbar` when an item is clicked
+- [ ] Add item dividers with `DividerItemDecoration`
 
 The following EXTRA features are implemented:
 
 - [ ] List anything else that you added to improve the app!
 
-## API Choice
-
-My chosen API for this project is **Pokemon API**.
-
 ## Video Demo
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-![Animation4](https://github.com/Zooomulus/P5PokeAPI/assets/115956505/30a85e4c-2eff-45e3-8aa1-c9275273f382)
+
 
 GIF created with **ScreenToGif**
 
@@ -51,7 +47,7 @@ GIF created with **ScreenToGif**
 
 ## Notes
 
-More beginner-friendly APIs, please! ;-; Had to restart from the Aletheia API...
+Pretty fun so far! I will be implementing these functionalities in my future projects...
 
 ## License
 
