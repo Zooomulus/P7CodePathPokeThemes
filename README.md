@@ -2,15 +2,15 @@
 
 # AND101 Project 7 - CYOAPI Part 3: Beautified
 
-Submitted by: **Your Name Here**
+Submitted by: **Dung Nguyen**
 
-Time spent: **X** hours spent in total
+Time spent: **1** hours spent in total
 
 ## Summary
 
-**Name of your app** is an android app that **fill in description (Example: "An app that displays a scrollable list of characters from the Marvel API")**
+**PokemonApp** is an android app that **Shows 20 Pokemon in a scrollable view with a new theme and colors!**
 
-If I had to describe this project in three (3) emojis, they would be: **emojis here**
+If I had to describe this project in three (3) emojis, they would be: **😀🐤🤟**
 
 ## Application Features
 
@@ -18,11 +18,11 @@ If I had to describe this project in three (3) emojis, they would be: **emojis h
 
 The following REQUIRED features are completed:
 
-- [ ] App contains a RecyclerView that displays a list of scrollable data
-- [ ] App displays at least two (2) pieces of data for each RecyclerView item
-- [ ] Use a downloadable font with custom color and size
-- [ ] Modify the theme of the app in `themes.xml`
-- [ ] Define and apply at least one style in **either** `themes.xml` or a new file `styles.xml`
+- [x] App contains a RecyclerView that displays a list of scrollable data
+- [x] App displays at least two (2) pieces of data for each RecyclerView item
+- [x] Use a downloadable font with custom color and size
+- [x] Modify the theme of the app in `themes.xml`
+- [x] Define and apply at least one style in **either** `themes.xml` or a new file `styles.xml`
 
 The following STRETCH features are implemented:
 
@@ -37,9 +37,10 @@ The following EXTRA features are implemented:
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Demo' width='' alt='Video Demo' />
+![Animation4](https://github.com/Zooomulus/P7CodePathPokeThemes/assets/115956505/52647e8c-c4f0-4499-8f48-798568a89f61)
 
-GIF created with **your chosen GIF tool**
+
+GIF created with **ScreenToGif**
 
 <!-- Recommended tools:
 - [Kap](https://getkap.co/) for macOS
@@ -52,7 +53,7 @@ Here's a place for any other notes on the app, it's creation process, or what yo
 
 ## License
 
-Copyright **yyyy** **your name**
+Copyright **2024** **Dung Nguyen**
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
