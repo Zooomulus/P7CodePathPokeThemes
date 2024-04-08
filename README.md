@@ -49,7 +49,7 @@ GIF created with **ScreenToGif**
 
 ## Notes
 
-Here's a place for any other notes on the app, it's creation process, or what you learned this unit!
+So far, I learned to customize the design of the app, implement open-source APIs, and create classes and functions in Kotlin. 
 
 ## License
 
